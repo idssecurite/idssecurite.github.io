@@ -1,0 +1,729 @@
+  .roboto-300 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-400 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-700 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .red-hat-display-300 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .red-hat-display-400 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .red-hat-display-500 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .red-hat-display-600 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .red-hat-display-700 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .red-hat-display-900 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(0, 0, 35, 1), rgb(0, 0, 35));
+    -webkit-background-position: contain;
+    -webkit-background-size: 150%;
+    -webkit-background-repeat: repeat;
+    background-repeat: repeat;
+    background-position: fixed;
+    background-size: 150%;
+  }
+
+  .redLineWeb {
+    background-color: red;
+    height: 1px;
+    width: 100%;
+  }
+
+  .emptyBox {
+    height: 600px;
+    width: auto;
+  }
+
+  .photoFitBox {
+    height: auto;
+    width: 100%;
+  }
+
+  .photoDarker {
+    filter: contrast(110%);
+    filter: brightness(80%);
+  }
+
+  ul {
+    list-style-position: outside;
+    list-style-type: circle;
+  }
+
+  .photoFit-250 {
+    height: 250px;
+    width: auto;
+    border-radius: 5px;
+  }
+
+  .iconSize {
+    max-height: 25px;
+    width: auto;
+  }
+
+  .downText{
+    padding-top: 260px;
+  }
+
+  .backgroundColor {
+    background-color: rgba(0, 0, 35, 1);
+    -webkit-background-color: rgba(0, 0, 35, 1);
+  }
+
+  #photoLogo {
+    display: inline-flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  #photoText {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .logoDimension {
+    max-height: auto;
+    width: 35px;
+  }
+
+  .logoFooterDimension {
+    max-height: auto;
+    width: 150px;
+  }
+
+  #groundPhotoBack {
+    background-image: linear-gradient(rgba(0, 0, 35, 1), rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 0.1),  rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 1)), url(../img/AdobeStock_253159954.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    width: auto;
+  }
+
+  #logoTop {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #BackCardGard {
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.6)), url(../img/AdobeStock_419896756.jpeg);
+  }
+
+  #BackCardEven {
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.6)), url(../img/AdobeStock_843947231.jpeg);
+  }
+
+  #BackCardInce {
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.6)), url(../img/AdobeStock_504605311.jpeg);
+  }
+
+  #BackCardCynop {
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.6)), url(../img/AdobeStock_170773504.jpeg);
+  }
+
+  .backCard {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    color: rgba(255, 255, 255, 1);
+    max-width: auto;
+    height: 100%;
+    text-align: center;
+    border: 20px;
+  }
+
+  .backCards {
+    width: auto;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
+    padding-top: 150px;
+  }
+
+  .cards {
+    display: grid;
+    grid-auto-columns: 40%;
+    grid-column-gap: 20px;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+  }
+
+  .cards::-webkit-scrollbar {
+    background-color: transparent;
+    height: 2px;
+  }
+
+  .cards::-webkit-scrollbar-button{
+    background-color: transparent;
+    width: 50px;
+  }
+
+  .cards::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .contacteNousPhoto {
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 1)), url(../img/AdobeStock_371581847.jpeg);
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  #contacteNousPhoto {
+    max-width: auto;
+    height: 400px;
+  }
+
+  #contactezNousButton :hover {
+    color: rgba(0, 0, 35, 1);
+  }
+
+  .textCentre {
+    text-align: center;
+  }
+
+  .textLeft {
+    text-align: start;
+  }
+
+  .textRight{
+    text-align:end;
+  }
+
+  .noUnderLineText {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+  .redText {
+    color: red;
+  }
+
+  .whiteText {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .blueText{
+    color: rgba(0, 0, 35, 1);
+  }
+
+  .hoverRed :hover {
+    color: red;
+  }
+
+  .textBoxFit {
+    text-align: justify;
+  }
+
+  .textWrap {
+    text-wrap: pretty;
+    text-align: left;
+  }
+
+  .lineBetween {
+    height: 1px;
+    width: auto;
+    background-color: red;
+    color: red;
+  }
+
+  .textBox {
+    background-color: rgba(0, 0, 35, 1);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .mouse {
+    cursor: pointer;
+  }
+
+  p {
+    font-size: larger;
+  }
+
+  .largeP {
+    font-size: larger;
+  }
+
+  .xLargeP {
+    font-size: x-large;
+  }
+
+  .exLargeP {
+    font-size: xx-large;
+  }
+
+  .smallP {
+    font-size: small;
+  }
+
+  .smallExP {
+    font-size: x-small;
+  }
+
+  @media (min-width: 0px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .bigLetters {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .bigLetters {
+      font-size: 70px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .bigLetters {
+      font-size: 70px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .bigLetters {
+      font-size: 80px;
+    }
+  }
+
+  .listNavbar,
+  .listaNavbar,
+  .topNavbar {
+    display: flex;
+  }
+
+  .goRight {
+    margin-left: auto;
+  }
+
+  .goLeft{
+    margin-right: auto;
+    justify-content: end;
+    text-align: end;
+  }
+
+  .menuNavbar,
+  .menuButtonNavbar {
+    display: none;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 35, 1);
+    justify-content: center;
+    height: fit-content;
+  }
+
+  .listaNos {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 35, 1);
+    color: rgba(255, 255, 255, 1);
+    width: auto;
+    border-radius: 2px;
+  }
+
+  @media only screen and (max-width: 840px) {
+
+    .listaNavbar,
+    .topNavbar {
+      flex-direction: column;
+    }
+
+    .listaNavbar {
+      display: none;
+    }
+
+    .logoNavbarWeb {
+      display: none;
+    }
+
+    .goRight {
+      margin-left: 0;
+    }
+
+    .showMenuNavbar {
+      display: flex;
+    }
+
+    .menuButtonNavbar {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: 0px) {
+    .cards{
+      grid-auto-columns: 80%;
+      grid-column-gap: 10px
+    }
+  }
+
+  @media (min-width: 576px) {
+    .cards{
+      grid-auto-columns: 80%;
+      grid-column-gap: 10px
+    }
+  }
+
+  @media (min-width: 768px) {
+    .cards{
+      grid-auto-columns: 60%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media (min-width: 992px) {
+    .cards{
+      grid-auto-columns: 40%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .cards{
+      grid-auto-columns: 30%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .cards{
+      grid-auto-columns: 30%;
+      grid-column-gap: 20px
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .listaNos {
+      position: sticky;
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+  }
+
+  .emptyBox {
+    height: 100px;
+  }
+
+  .form-group {
+    margin-top: 5px;
+  }
+
+  .form-group label {
+    display: inline-block block;
+    margin-bottom: 5px;
+  }
+
+  .form-groupMessage label {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .buttonWhite{
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"] {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .envoyeButton,
+  .devisButton,
+  .form-group input[type="submit"] {
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+  }
+
+  .envoyeButton:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: rgba(255, 255, 255);
+  }
+
+  .devisButton:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: rgba(255, 255, 255);
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: rgba(255, 255, 255);
+  }
+
+  .inputField {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 35, 1);
+  }
+
+  .textRight {
+    text-align: end;
+  }
+
+  .lineUnder {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-underline-offset: 10px;
+  }
+
+  .servicesPhoto{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-position-y: 60%;
+    max-width: auto;
+    height: 400px;
+  }
+
+  .servicesPhotoCyno{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 35%;
+    max-width: auto;
+    height: 400px;
+  }
+
+  .servicesPhotoEven{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    max-width: auto;
+    height: 400px;
+  }
+
+  .backgroundPhotoGard{
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05),rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.5), rgba(0, 0, 35, 1)), url(../img/AdobeStock_419896756.jpeg);
+  }
+
+  .backgroundPhotoCyno{
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05),rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.5), rgba(0, 0, 35, 1)), url(../img/AdobeStock_170773504.jpeg);
+  }
+
+  .backgroundPhotoInce{
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.5), rgba(0, 0, 35, 1)), url(../img/AdobeStock_504605311.jpeg);
+  }
+
+  .backgroundPhotoEven{
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.5), rgba(0, 0, 35, 1)), url(../img/AdobeStock_843947231.jpeg);
+  }
+
+  .backgroundPhotoApropos{
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.5), rgba(0, 0, 35, 1)), url(../img/AdobeStock_645275539.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-position-y: 60%;
+    max-width: auto;
+    height: 400px;
+  }
+
+  .backgroundPhotoServices {
+    background-image: linear-gradient(rgba(0, 0, 35, 0.05),rgba(0, 0, 35, 0.05), rgba(0, 0, 35, 0.5), rgba(0, 0, 35, 1)), url(../img/AdobeStock_572616742.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    max-width: auto;
+    height: 400px;
+  }
+
+  .backgroundPhotoServicesGardiennage {
+    background-image: url(../img/AdobeStock_419896756.jpeg);
+  }
+
+  .backgroundPhotoServicesIncendie {
+    background-image: url(../img/AdobeStock_504605311.jpeg);
+  }
+
+  .backgroundPhotoServicesEvenementielle {
+    background-image: url(../img/AdobeStock_843947231.jpeg);
+  }
+
+  .backgroundPhotoServicesCynophile {
+    background-image: url(../img/AdobeStock_170773504.jpeg);
+  }
+
+  .backgroundPhotoServicesInstallation {
+    background-image: url(../img/AdobeStock_369000996.jpeg);
+  }
+
+  .backgroundPhotoServicesNos {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    max-width: auto;
+    height: 350px;
+  }
+
+  .marginMinus {
+    margin-left: -20px;
+    margin-right: -20px
+  }
+
+  .cardsServices {
+    display: grid;
+    grid-auto-columns: 40%;
+    grid-column-gap: 20px;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+  }
+
+  .cardsServices::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 1);
+    height: 5px;
+  }
+
+  .cardsServices::-webkit-scrollbar-thumb,
+  .cardsServices::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+
+  .cardsServices::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .darkBoxTrans {
+    background-color: rgba(0, 0, 35, 1);
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .iconNos {
+    max-width: 100px;
+    height: auto;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .iconCont{
+    max-width: 60px;
+    min-width: 60px;
+    height:auto;
+  }
+
+  .marginCentre {
+    margin-top: 15px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .marginCentreLoc {
+    margin-top: 1px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .linkHoverUnder:hover{
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-underline-offset: 4px;
+  }
+
+  .CAPSLOCK{
+    text-transform: uppercase;
+  }
