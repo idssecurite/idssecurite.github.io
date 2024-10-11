@@ -145,7 +145,7 @@
   }
 
   #groundPhotoBack {
-    background-image: linear-gradient(rgba(0, 0, 35, 1), rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 0.1),  rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 1)), url(../img/AdobeStock_253159954.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 35, 1), rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 0.1), rgba(0, 0, 35, 0.6), rgba(0, 0, 35, 1)), url(../img/AdobeStock_253159954.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -512,6 +512,11 @@
     cursor: pointer;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 1);
+    color: blue;
+  }
+
+  .buttonWhite:hover{
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
   .form-group input[type="text"],
@@ -534,17 +539,17 @@
   }
 
   .envoyeButton:hover {
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.6);
     color: rgba(255, 255, 255);
   }
 
   .devisButton:hover {
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.6);
     color: rgba(255, 255, 255);
   }
 
   .form-group input[type="submit"]:hover {
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.6);
     color: rgba(255, 255, 255);
   }
 
@@ -562,7 +567,7 @@
     text-decoration-color: red;
     text-decoration-thickness: 1px;
     text-decoration-style: solid;
-    text-underline-offset: 10px;
+    text-underline-offset: 5px;
   }
 
   .servicesPhoto{
@@ -726,4 +731,12 @@
 
   .CAPSLOCK{
     text-transform: uppercase;
+  }
+
+  .wholeWord{
+    text-wrap: nowrap;
+  }
+
+  .blueText{
+    color: rgba(255, 255, 255, 0.1);
   }
